@@ -43,28 +43,28 @@ WebSocket을 사용한 실시간 채팅 기능을 구현 하고 싶어서 **채�
 ## 2-3. 나의 작업 파일 경로
 **spring**
 1. 채팅게시판
-- controller : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/java/com/dds/app/chat/controller/ChatController.java
-- service : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/java/com/dds/app/chat/service/ChatService.java
-- dao : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/java/com/dds/app/chat/dao/ChatDao.java
-- vo : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/java/com/dds/app/chat/vo/ChatBoardVo.java
-- mapper(mybatis) : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/resources/mybatis/mapper/chat-mapper.xml
+- controller : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/controller/ChatController.java
+- service : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/service/ChatService.java
+- dao : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/dao/ChatDao.java
+- vo : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/vo/ChatBoardVo.java
+- mapper(mybatis) : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/resources/mybatis/mapper/chat-mapper.xml
 
 2. 채팅
-- server : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/java/com/dds/app/socket/ChatSocketServer.java
-- dao : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/java/com/dds/app/chat/dao/ChatDao.java<br/>
+- server : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/socket/ChatSocketServer.java
+- dao : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/dao/ChatDao.java<br/>
 ( 51번 행 부터)
 &nbsp;
 
-- vo : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/java/com/dds/app/chat/vo/ChatVo.java
-- mapper(mybatis) : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/resources/mybatis/mapper/chat-mapper.xml<br/>
+- vo : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/vo/ChatVo.java
+- mapper(mybatis) : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/resources/mybatis/mapper/chat-mapper.xml<br/>
 ( 78번 행 부터 ) 
 
 
 
 **jsp**
-- 채팅게시판 : https://github.com/KangConqueror/KhFinalProject/tree/main/workspace/FinalPrj/src/main/webapp/WEB-INF/views/chat
+- 채팅게시판 : https://github.com/KangConqueror/KhFinalProject/tree/main/workspace/FinalProject/src/main/webapp/WEB-INF/views/chat
 
-- 채팅 : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalPrj/src/main/webapp/WEB-INF/views/chat/room.jsp
+- 채팅 : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/webapp/WEB-INF/views/chat/room.jsp
 
 &nbsp;
 
