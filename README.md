@@ -8,7 +8,7 @@ Final Project 진행 당시 해외 dreamboard.com 이라는 꿈을 기록하는 
 소설책 **달러구트 꿈백화점** 을 모티브로 만들었습니다.
 
 &nbsp;
-  <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/main.png" />
+  <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/main.png" />
 &nbsp;
 
 ## 2-1. 나의 작업은?
@@ -70,49 +70,30 @@ WebSocket을 사용한 실시간 채팅 기능을 구현 하고 싶어서 **채�
 
 ## 2-4. 완성된 화면
 <details>
-  <summary>상품 목록 화면</summary>
+  <summary>채팅게시판 목록조회</summary>
   <br />
   <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/ProductList.png" />
+    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatBoardGetList.png" />
   </div>
 </details>
 <details>
-  <summary>상품 상세 화면</summary>
+  <summary>채팅게시판 상세조회</summary>
   <br />
   <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/ProductDetail1.png" />
-  </div>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/ProductDetail2.png" />
-  </div>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/ProductDetail3.png" />
+    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatBoardDetail.png" />
   </div>
 </details>
 <details>
-  <summary>결제 화면</summary>
+  <summary>채팅게시판 작성</summary>
   <br />
   <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/Pay.png" />
-  </div>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/PayComplate.png" />
+    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatBoardWrite.png" />
   </div>
 </details>
 <details>
-  <summary>장바구니 화면</summary>
+  <summary>채팅</summary>
   <br />
   <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/Cart.png" />
-  </div>
-</details>
-<details>
-  <summary>결제 목록</summary>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/JongChanP/FinalProject/blob/main/FinalImage/PayList.png" />
+    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatRoom.png" />
   </div>
 </details>
