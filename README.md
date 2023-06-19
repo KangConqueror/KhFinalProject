@@ -1,4 +1,4 @@
-FORK된 해당 프로젝트는 국비지원 교육시 Final Project로 진행한 작업물 입니다. 😃 
+해당 프로젝트는 국비지원 교육시 Final Project로 진행한 작업물 입니다. 😃 
 
 &nbsp;
 
