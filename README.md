@@ -35,6 +35,7 @@ WebSocket을 사용한 실시간 채팅 기능을 구현 하고 싶어서 **채�
 
 - Java(jdk 11)
 - spring Framework / MVC 아키텍처 패턴
+- webSocket
 - Oracle DB
 - javascript
 - jQuery
@@ -43,60 +44,15 @@ WebSocket을 사용한 실시간 채팅 기능을 구현 하고 싶어서 **채�
 
 &nbsp;
 
-## 나의 작업 파일 경로
-**spring**
-1. 채팅게시판
-- controller : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/controller/ChatController.java
-- service : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/service/ChatService.java
-- dao : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/dao/ChatDao.java
-- vo : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/vo/ChatBoardVo.java
-- mapper(mybatis) : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/resources/mybatis/mapper/chat-mapper.xml
+## 핵심 기능 설명
 
-2. 채팅
-- server : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/socket/ChatSocketServer.java
-- dao : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/dao/ChatDao.java<br/>
-( 51번 행 부터)
-&nbsp;
+- [01 채팅게시판 작성](https://github.com/KangConqueror/KhFinalProject/wiki/01-%EC%B1%84%ED%8C%85%EA%B2%8C%EC%8B%9C%ED%8C%90-%EC%9E%91%EC%84%B1)
 
-- vo : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/java/com/dds/app/chat/vo/ChatVo.java
-- mapper(mybatis) : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/resources/mybatis/mapper/chat-mapper.xml<br/>
-( 78번 행 부터 ) 
+- [02 채팅게시판 목록조회](https://github.com/KangConqueror/KhFinalProject/wiki/02-%EC%B1%84%ED%8C%85%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C)
 
+- [03 채팅게시판 상세조회](https://github.com/KangConqueror/KhFinalProject/wiki/03-%EC%B1%84%ED%8C%85%EA%B2%8C%EC%8B%9C%ED%8C%90-%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C)
 
+- [04 채팅게시판 수정&&삭제](https://github.com/KangConqueror/KhFinalProject/wiki/04-%EC%B1%84%ED%8C%85%EA%B2%8C%EC%8B%9C%ED%8C%90-%EC%88%98%EC%A0%95&&%EC%82%AD%EC%A0%9C)
 
-**jsp**
-- 채팅게시판 : https://github.com/KangConqueror/KhFinalProject/tree/main/workspace/FinalProject/src/main/webapp/WEB-INF/views/chat
+- [05 WebSocket 채팅](https://github.com/KangConqueror/KhFinalProject/wiki/05-WebSocket-%EC%B1%84%ED%8C%85)
 
-- 채팅 : https://github.com/KangConqueror/KhFinalProject/blob/main/workspace/FinalProject/src/main/webapp/WEB-INF/views/chat/room.jsp
-
-&nbsp;
-
-## 완성된 화면
-<details>
-  <summary>채팅게시판 목록조회</summary>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatBoardGetList.png" />
-  </div>
-</details>
-<details>
-  <summary>채팅게시판 상세조회</summary>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatBoardDetail.png" />
-  </div>
-</details>
-<details>
-  <summary>채팅게시판 작성</summary>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatBoardWrite.png" />
-  </div>
-</details>
-<details>
-  <summary>채팅</summary>
-  <br />
-  <div markdown="1">
-    <image src="https://github.com/KangConqueror/KhFinalProject/blob/main/ImageFolder/chatRoom.png" />
-  </div>
-</details>
