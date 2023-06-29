@@ -1,4 +1,4 @@
-해당 프로젝트는 국비지원 교육시 Final Project로 진행한 작업물 입니다. 😃
+해당 프로젝트는 국비지원 교육 중 Final Project로 진행한 작업물 입니다. 😃
 
 ## 어떤 프로젝트인가? 
 Final Project 진행 당시 해외 dreamboard.com 이라는 꿈을 기록하는 일기 같은 웹 페이지를 보았는데
